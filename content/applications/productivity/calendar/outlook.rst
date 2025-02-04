@@ -224,6 +224,8 @@ app --> Manage Users`. Then, select the user to modify the calendar, and click o
 
 Next, click :guilabel:`Reset Account` under the correct calendar.
 
+It might be that Odoo request will be refused by Microsoft after following the guideline. The error is "Bad Request. Something went wrong during your token generation. Maybe your Authorization Code is invalid". In case you face the error ensure that you have ticked both POP options and IMAP options in Sync email (Outlook -> Settings -> Mail -> Sync email -> POP and IMAP settings)
+
 Reset options
 -------------
 
