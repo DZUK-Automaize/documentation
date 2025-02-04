@@ -88,7 +88,7 @@ Request
 
     ``account_token`` (required)
         The token of the account from which credits will be taken. Each successful call costs one
-        token.
+        token. The token is located under Settings -> IAP -> Document Digitization. Be cautious, as creating a token in your profile won't work.
     ``version`` (required)
         The version will determine the format of your requests and the format of the server response.
         You should use the :ref:`latest version available <extract_api/version>`.
